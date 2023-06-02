@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace CoinCapHandler
 {
-    public class CoinCapHandler
+    public class CoinCapApiHandler
     {
         private HttpClient _client = new HttpClient();
         public string Url => "https://api.coincap.io/v2";
