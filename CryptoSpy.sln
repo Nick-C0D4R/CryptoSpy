@@ -5,6 +5,8 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoSpy", "CryptoSpy\CryptoSpy.csproj", "{0EC1222F-6009-44F0-AF5D-197D5A2C3BDB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoinCapHandler", "CoinCapHandler\CoinCapHandler.csproj", "{0B9A6345-FB1F-4CCE-90A8-C5F4CD01F447}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{0EC1222F-6009-44F0-AF5D-197D5A2C3BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0EC1222F-6009-44F0-AF5D-197D5A2C3BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0EC1222F-6009-44F0-AF5D-197D5A2C3BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B9A6345-FB1F-4CCE-90A8-C5F4CD01F447}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B9A6345-FB1F-4CCE-90A8-C5F4CD01F447}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B9A6345-FB1F-4CCE-90A8-C5F4CD01F447}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B9A6345-FB1F-4CCE-90A8-C5F4CD01F447}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
