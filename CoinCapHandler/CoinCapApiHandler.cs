@@ -19,7 +19,7 @@ namespace CoinCapHandler
             HttpResponseMessage message = await _client.GetAsync(url);
             if (message.IsSuccessStatusCode)
             {
-                string response = JsonConvert.SerializeObject(message.Content);
+                string response = await message.Content.ReadAsStringAsync();
                 return JObject.Parse(response);
             }
 
