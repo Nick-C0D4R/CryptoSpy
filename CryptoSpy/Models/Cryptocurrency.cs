@@ -1,6 +1,6 @@
 ﻿namespace CryptoSpy.Models
 {
-    public class Cryptocurrence
+    public class Cryptocurrency
     {
         public string Id { get; set; }
         public string Rank { get; set; }
