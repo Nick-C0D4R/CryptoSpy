@@ -4,6 +4,6 @@
              xmlns:local="clr-namespace:CryptoSpy"
              StartupUri="Views/MainWindow.xaml">
     <Application.Resources>
-         
+        <BitmapImage x:Key="logo" UriSource="img\icon.png"/>
     </Application.Resources>
 </Application>
