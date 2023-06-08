@@ -6,12 +6,17 @@
         xmlns:local="clr-namespace:CryptoSpy"
         xmlns:viewModel="clr-namespace:CryptoSpy.ViewModels"
         mc:Ignorable="d"
-        Title="CryptoSpy" Height="450" Width="800"
+        Title="CryptoSpy" Height="563" Width="1000"
         Icon="{StaticResource logo}">
     <Window.DataContext>
         <viewModel:MainViewModel />
     </Window.DataContext>
-    <Grid>
-        
-    </Grid>
+    <TabControl>
+        <TabItem Header="Top 10 Cryptocurrencies">
+            <Frame x:Name="MainContent" Content="{Binding TopCurrenciesPage}"/>
+        </TabItem>
+        <TabItem Header="Search info">
+            <Frame x:Name="Details" Content="{Binding DetailsPage}"/>
+        </TabItem>
+    </TabControl>
 </Window>
